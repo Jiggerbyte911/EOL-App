@@ -1,0 +1,89 @@
+<div class="quiz-container">
+  <h1 style="text-align: center; font-family: Delius-Regular; color: #667eea; margin-bottom: 40px">
+    🌊 Quiz-Zeit! 🌊
+  </h1>
+
+  <!-- Quiz-Inhalt wird aus JSON geladen -->
+  @if (quizData && !showResults) {
+  <div class="question-card">
+    <!-- Fortschritt -->
+    <div class="progress-bar">
+      <p class="progress-text">
+        Frage {{ currentQuestion + 1 }} von {{ quizData.questions.length }}
+      </p>
+      <div class="progress-bar-bg">
+        <div
+          class="progress-bar-fill"
+          [style.width.%]="((currentQuestion + 1) / quizData.questions.length) * 100"
+        ></div>
+      </div>
+    </div>
+
+    <!-- Frage (aus JSON: quizData.questions[currentQuestion].question) -->
+    <h2 class="question">{{ quizData.questions[currentQuestion].question }}</h2>
+
+    <!-- Antwortoptionen (aus JSON: quizData.questions[currentQuestion].options) -->
+    <div class="options">
+      @for (option of quizData.questions[currentQuestion].options; track $index) {
+      <button
+        class="option-button"
+        [class.selected]="selectedAnswer === $index"
+        [class.correct]="showResult && $index === quizData.questions[currentQuestion].correct"
+        [class.wrong]="
+          showResult &&
+          selectedAnswer === $index &&
+          $index !== quizData.questions[currentQuestion].correct
+        "
+        (click)="selectAnswer($index)"
+        [disabled]="showResult"
+      >
+        {{ option }}
+      </button>
+      }
+    </div>
+
+    <!-- Feedback (aus JSON: quizData.questions[currentQuestion].explanation) -->
+    @if (showResult) {
+    <div class="feedback">
+      <p class="feedback-text">✨ {{ quizData.questions[currentQuestion].explanation }}</p>
+    </div>
+    }
+
+    <!-- Buttons -->
+    <div class="button-group">
+      @if (!showResult) {
+      <button class="btn btn-primary" (click)="submitAnswer()" [disabled]="selectedAnswer === null">
+        ✓ Antwort prüfen
+      </button>
+      } @else { @if (currentQuestion < quizData.questions.length - 1) {
+      <button class="btn btn-primary" (click)="nextQuestion()">➜ Nächste Frage</button>
+      } @else {
+      <button class="btn btn-success" (click)="finishQuiz()">Quiz beenden</button>
+      } }
+    </div>
+  </div>
+  } @else if (showResults) {
+  <!-- Ergebnis-Zusammenfassung -->
+  <div class="results-card">
+    <h2>🏆 Ergebnisse! 🏆</h2>
+    <p class="score">
+      Du hast {{ score }} von {{ quizData?.questions?.length ?? 0 }} Fragen richtig beantwortet!
+    </p>
+    <p class="percentage">
+      {{ (score / (quizData?.questions?.length || 1)) * 100 | number : '1.0-0' }}%
+    </p>
+    @if ((score / (quizData?.questions?.length || 1)) * 100 >= 80) {
+    <p style="font-size: 24px; margin: 20px 0">Fantastisch! Du bist ein echter Ozean-Experte! 🌟</p>
+    } @else if ((score / (quizData?.questions?.length || 1)) * 100 >= 60) {
+    <p style="font-size: 24px; margin: 20px 0">Sehr gut! Du kennst dich mit den Ozeanen aus! 👍</p>
+    } @else {
+    <p style="font-size: 24px; margin: 20px 0">Gut gemacht! Komm bald wieder! 🌊</p>
+    }
+    <button class="btn btn-primary" routerLink="/">← Zurück zur Startseite</button>
+  </div>
+  } @else if (errorMessage) {
+  <p style="text-align: center; color: red">{{ errorMessage }}</p>
+  } @else {
+  <p style="text-align: center; color: #999; font-size: 20px">🔄 Quiz wird geladen...</p>
+  }
+</div>

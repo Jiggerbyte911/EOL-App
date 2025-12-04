@@ -1,0 +1,41 @@
+use {
+  animation: move-forever 16s linear infinite;
+  &:nth-child(2) {
+    animation-duration: 32s;
+    animation-delay: -1.9s;
+  }
+  &:nth-child(1) {
+    animation-duration: 64s;
+  }
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate(-2px, 0);
+  }
+  100% {
+    transform: translate(0px, 0);
+  }
+}
+
+/* layout only*/
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #4da195;
+}
+
+html {
+  overflow: hidden;
+  height: 100vh;
+}
+
+svg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 700px; /* fixed height so it doesn't scroll */
+  overflow: hidden; /* crop any overflow */
+  z-index: -1;
+}

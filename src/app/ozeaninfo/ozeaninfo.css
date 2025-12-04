@@ -1,0 +1,171 @@
+#infotext {
+  /* white-space: pre-wrap; Zeilenumbruch beibehalten */
+  white-space: pre-line;
+  height: auto;
+  max-height: 500px;
+  overflow-y: scroll;
+  resize: none;
+  position: fixed;
+  flex-wrap: wrap;
+
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  /*margin-left: 15px;
+  margin-right: 15px;'/
+  /*Abstände von oben und unten*/
+  top: 185px;
+  bottom: 380px;
+  padding: 15px;
+
+  color: white;
+  background: #1c524a; /* white, 30% opacity */
+  border: #ffffff 3px solid;
+  border-radius: 25px; /* slightly rounded corners */
+}
+/* From Uiverse.io by satyamchaudharydev */
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* button styling */
+.button {
+  padding: 5px;
+  --border-right: 6px;
+  --text-stroke-color: rgba(0, 0, 0, 0.6);
+  --animation-color: #4da195;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: 'Arial';
+  position: fixed;
+  right: 50px;
+  /* Position the button so it sits above the sprechblase.
+      Uses CSS variables set by the Sprechblase component: --sprechblase-bottom and --sprechblase-height
+      Fallbacks: if variables aren't available, use 400px. */
+  bottom: calc(var(--sprechblase-bottom, 15px) + var(--sprechblase-height, 0px) + 12px);
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+  background: rgba(255, 255, 255, 0.85); /* white, 30% opacity */
+  /*padding: 12px 20px; /* some inner spacing */
+  border-radius: 8px; /* slightly rounded corners */
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  padding: 5px;
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color));
+}
+
+/* Position carousel: centered but constrained so it avoids the mascot on the right */
+#carouselExample {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* available width = viewport minus mascot width (200px) and gap (40px) */
+  width: min(800px, calc(100% - 240px));
+  max-width: calc(100% - 240px);
+  max-height: 100vh;
+  z-index: 1000;
+  border-radius: 12px; /* rounded corners */
+  overflow: hidden; /* ensure images respect border-radius */
+}
+
+/* On small screens there may not be space to keep the centered offset; move carousel to left edge */
+@media (max-width: 1070px) {
+  #carouselExample {
+    left: 15px;
+    transform: none;
+    width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
+  }
+}
+
+/* Make carousel images fill the fixed carousel box while preserving aspect ratio */
+#carouselExample .carousel-item img {
+  width: 100%;
+  height: 350px; /* visual height inside the corner box */
+  object-fit: cover; /* crop/scale image to fill the box */
+}
+
+/* --- Carousel caption (labels) sizing and layout --- */
+/* Set a fixed visual height for the caption area and center text vertically */
+#carouselExample .carousel-caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 90px; /* change this value to increase/decrease caption height */
+  padding: 8px 12px; /* inner spacing */
+  background: rgba(0, 0, 0, 0.45); /* optional semi-transparent background for readability */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center h5 + p */
+  gap: 4px;
+  overflow: hidden; /* crop overflowing text */
+}
+
+#carouselExample .carousel-caption h5 {
+  margin: 0;
+  font-size: 1rem; /* adjust title size */
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+#carouselExample .carousel-caption p {
+  margin: 0;
+  font-size: 0.85rem; /* adjust subtitle size */
+  line-height: 1.1;
+  color: #f1f1f1;
+  max-height: 2.2em; /* keep paragraph to about two lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive tweak: smaller captions on small screens */
+@media (max-width: 576px) {
+  #carouselExample .carousel-caption {
+    height: 70px;
+    padding: 6px 8px;
+  }
+  #carouselExample .carousel-caption h5 {
+    font-size: 0.95rem;
+  }
+  #carouselExample .carousel-caption p {
+    font-size: 0.75rem;
+  }
+}
+
+/* Move carousel indicators a bit down so they don't overlap with caption/text */
+#carouselExample .carousel-indicators {
+  bottom: -18px; /* push indicators below the carousel box */
+  z-index: 1001; /* ensure visible above other elements */
+}
+
+/* Smaller offset on very small screens to keep indicators on-screen */
+@media (max-width: 420px) {
+  #carouselExample .carousel-indicators {
+    bottom: -10px;
+  }
+}
