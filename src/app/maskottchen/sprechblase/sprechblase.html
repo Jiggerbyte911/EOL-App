@@ -1,0 +1,63 @@
+<!-- <p
+  style="bottom: 150px; right: 150px; position: absolute; width: 150px; height: auto; z-index: 1000"
+  class="text-center"
+></p>
+<p class="text-center">
+  {{
+    'Na, ihr Flitzpiepen? Lust auf eine spannende Reise durch die Welt der Erde und Ozeane? Dann los!'
+  }}
+</p>
+<div class="sprechblase-container">
+  <svg viewBox="0 0 200 100" class="sprechblase-svg">
+    <path
+      d="M10 10 C 2 10 2 2 10 2 H180 C 188 2 188 10 180 10 V70 C 188 70 188 78 180 78 H60 L40 95 L50 78 H10 C 2 78 2 70 10 70 V10 Z"
+      fill="#FFECB3"
+      stroke="#FFA000"
+      stroke-width="2"
+    />
+  </svg>
+  <div class="sprechblase-text">
+    {{
+      'Na, ihr Flitzpiepen? Lust auf eine spannende Reise durch die Welt der Erde und Ozeane? Dann los!'
+    }}
+  </div>
+</div>
+ -->
+<!--<img src="/sprechblase.svg" />-->
+<!--wenn ich das hier drunter wegmache gehts-->
+<!--<div class="container" position="relative">
+  <svg
+    overflow="visible"
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg"
+    style="bottom: 130px; right: 40px; position: fixed; height: auto; z-index: 1001"
+  >
+    <title>Sprechblase</title>
+
+    <g id="Layer_1">
+      <path
+        stroke-width="2"
+        id="svg_9"
+        d="m199.00116,18.20763l0,0c0,-9.50351 -10.1576,-17.20763 -22.68763,-17.20763l-10.31256,0l0,0l-49.50029,0l-92.81303,0c-6.01715,0 -11.78783,1.81294 -16.0426,5.04c-4.25474,3.22706 -6.64504,7.60389 -6.64504,12.16763l0,43.01908l0,0l0,25.81144l0,0c0,9.50352 10.15759,17.20763 22.68764,17.20763l92.81303,0l64.66603,43.75501l-15.16573,-43.75501l10.31256,0c12.53003,0 22.68763,-7.70411 22.68763,-17.20763l0,0l0,-25.81144l0,0l0.00001,-43.01908z"
+        stroke="#000"
+        fill="#fff"
+      />
+    </g>
+  </svg>
+</div>
+<div
+  class="sprechblase-text"
+  style="bottom: 160px; right: 140px; position: fixed; width: 190px; height: auto; z-index: 1002"
+>
+  {{
+    'Na, ihr kleinen Flitzpiepen? Lust auf eine spannende Reise durch die Welt der Erde und Ozeane? Dann los!'
+  }}
+</div>-->
+<div class="container-sprechblase">
+  <div class="sprechblase-text">
+    <p [innerHTML]="sprechblasenText"></p>
+    @if (quizScore) {
+    <p style="font-weight: bold; color: #ff6b9d; margin-top: 8px">{{ quizScore }}</p>
+    }
+  </div>
+</div>

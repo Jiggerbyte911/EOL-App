@@ -1,0 +1,72 @@
+[
+  {
+    "frage": "Welches ist das größte Tier, das jemals auf der Erde gelebt hat?",
+    "antworten": [
+      "Tyrannosaurus Rex",
+      "Blauwal",
+      "Elefant",
+      "Riesentintenfisch"
+    ],
+    "richtigeAntwort": "Blauwal"
+  },
+  {
+    "frage": "Welcher Fisch kann mit seinen starken Zähnen Korallenstücke abbeißen?",
+    "antworten": [
+      "Goldfisch",
+      "Clownfisch",
+      "Papageifisch",
+      "Schwertfisch"
+    ],
+    "richtigeAntwort": "Papageifisch"
+  },
+  {
+    "frage": "Wie bewegen sich Mantarochen durch das Wasser?",
+    "antworten": [
+      "Sie kriechen über den Boden",
+      "Sie paddeln mit kleinen Flossen",
+      "Sie fliegen fast wie Vögel mit ihren großen Flossen",
+      "Sie lassen sich nur treiben"
+    ],
+    "richtigeAntwort": "Sie fliegen fast wie Vögel mit ihren großen Flossen"
+  },
+  {
+    "frage": "Was frisst ein Blauwal hauptsächlich?",
+    "antworten": [
+      "Andere Wale",
+      "Große Fische",
+      "Krill",
+      "Haie"
+    ],
+    "richtigeAntwort": "Krill"
+  },
+  {
+    "frage": "Warum hat der Hammerhai einen hammerförmigen Kopf?",
+    "antworten": [
+      "Um schneller schwimmen zu können",
+      "Damit er besser sehen und Beute finden kann",
+      "Um Felsen zu zertrümmern",
+      "Aus Schutz vor Raubtieren"
+    ],
+    "richtigeAntwort": "Damit er besser sehen und Beute finden kann"
+  },
+  {
+    "frage": "Wie nennt man Tiere, die selbst Licht herstellen können?",
+    "antworten": [
+      "Fotosynthese",
+      "Biolumineszenz",
+      "Thermofusion",
+      "Bioelektrik"
+    ],
+    "richtigeAntwort": "Biolumineszenz"
+  },
+  {
+    "frage": "Welches geheimnisvolle Tiefseetier lockt Beute mit einer leuchtenden 'Lampe' an?",
+    "antworten": [
+      "Mantarochen",
+      "Anglerfisch",
+      "Hammerhai",
+      "Delfin"
+    ],
+    "richtigeAntwort": "Anglerfisch"
+  }
+]

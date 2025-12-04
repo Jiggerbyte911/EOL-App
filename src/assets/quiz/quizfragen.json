@@ -1,0 +1,149 @@
+{
+  "pazifik": {
+    "title": "Pazifik Quiz",
+    "questions": [
+      {
+        "question": "Welcher ist der tiefste Punkt des Pazifischen Ozeans?",
+        "options": ["Marianengraben", "Tongagraben", "Kurilgraben", "Aleutengraben"],
+        "correct": 0,
+        "explanation": "Der Marianengraben ist mit etwa 11.000 Metern Tiefe der tiefste Punkt des Pazifischen Ozeans und sogar der tiefste Punkt aller Ozeane der Welt."
+      },
+      {
+        "question": "Welches ist das größte Korallenriffsystem der Erde?",
+        "options": ["Belize-Riff", "Großes Barriereriff", "Flores-Riff", "Palau-Riff"],
+        "correct": 1,
+        "explanation": "Das Große Barriereriff vor der Küste Australiens ist das größte Korallenriffsystem der Welt und erstreckt sich über mehr als 2.300 Kilometer."
+      },
+      {
+        "question": "Wie viel Prozent der weltweiten Fischbestände befinden sich im Pazifik?",
+        "options": ["25%", "40%", "60%", "80%"],
+        "correct": 2,
+        "explanation": "Der Pazifische Ozean enthält etwa 60% der weltweiten Fischbestände und ist damit die wichtigste Quelle für Meeresfrüchte weltweit."
+      },
+      {
+        "question": "Welcher Meeresstrrom ist der größte und stärkste der Welt?",
+        "options": ["Golfstrom", "Kuroshio-Strom", "Zirkumpolarstrom", "Kaliforniastrom"],
+        "correct": 2,
+        "explanation": "Der Zirkumpolarstrom (auch Antarktischer Zirkumpolarstrom) ist mit einer Transportrate von etwa 130 Millionen Kubikmeter pro Sekunde der größte und stärkste Meeresstrrom der Welt."
+      }
+    ]
+  },
+  "atlantik": {
+    "title": "Atlantik Quiz",
+    "questions": [
+      {
+        "question": "Welcher ist der tiefste Punkt des Atlantischen Ozeans?",
+        "options": [
+          "Portorikograben",
+          "Südsandwichgraben",
+          "Guayanassenke",
+          "Amerikanischer Graben"
+        ],
+        "correct": 0,
+        "explanation": "Der Portorikograben ist mit etwa 8.648 Metern Tiefe der tiefste Punkt des Atlantischen Ozeans."
+      },
+      {
+        "question": "Wie heißt der längste Gebirgszug der Erde, der größtenteils unter Wasser im Atlantik liegt?",
+        "options": [
+          "Atlantischer Rücken",
+          "Mittelatlantischer Rücken",
+          "Ostatlantischer Rücken",
+          "Westatlantischer Rücken"
+        ],
+        "correct": 1,
+        "explanation": "Der Mittelatlantische Rücken ist mit etwa 16.000 Kilometern Länge der längste Gebirgszug der Erde und zieht sich durch den gesamten Atlantischen Ozean."
+      },
+      {
+        "question": "In welchem Jahr versank die Titanic im Atlantik?",
+        "options": ["1910", "1912", "1915", "1920"],
+        "correct": 1,
+        "explanation": "Die RMS Titanic versank am 15. April 1912 nach dem Zusammenstoß mit einem Eisberg im Nordatlantik."
+      },
+      {
+        "question": "Welcher Kontinent grenzt nicht an den Atlantischen Ozean?",
+        "options": ["Afrika", "Südamerika", "Australien", "Europa"],
+        "correct": 2,
+        "explanation": "Australien grenzt nicht an den Atlantischen Ozean. Der Atlantik grenzt an Afrika, Europa, Nord- und Südamerika sowie an die Antarktis."
+      }
+    ]
+  },
+  "indischer": {
+    "title": "Indischer Ozean Quiz",
+    "questions": [
+      {
+        "question": "Wie viele Länder grenzen an den Indischen Ozean?",
+        "options": ["Etwa 20", "Etwa 30", "Etwa 40", "Etwa 50"],
+        "correct": 2,
+        "explanation": "Etwa 40 Länder grenzen an den Indischen Ozean, was ihn zu einem der wichtigsten Handelsmeere der Welt macht."
+      },
+      {
+        "question": "Welcher ist der tiefste Punkt des Indischen Ozeans?",
+        "options": ["Java-Graben", "Sundagraben", "Somaliagraben", "Chagosgraben"],
+        "correct": 0,
+        "explanation": "Der Java-Graben (auch Sundagraben genannt) ist mit etwa 7.450 Metern der tiefste Punkt des Indischen Ozeans."
+      },
+      {
+        "question": "Welcher Monsun beeinflusst den Indischen Ozean besonders stark?",
+        "options": ["Sommermonsun", "Wintermonsun", "Südwestmonsun", "Alle sind gleich"],
+        "correct": 2,
+        "explanation": "Der Südwestmonsun ist einer der dominantesten Wettermuster des Indischen Ozeans und beeinflusst die Schifffahrt und das Wetter in der Region stark."
+      }
+    ]
+  },
+  "arktis": {
+    "title": "Arktischer Ozean Quiz",
+    "questions": [
+      {
+        "question": "Wie groß ist ungefähr die Eisfläche des arktischen Meereises?",
+        "options": [
+          "Etwa 2 Millionen km²",
+          "Etwa 5 Millionen km²",
+          "Etwa 10 Millionen km²",
+          "Etwa 20 Millionen km²"
+        ],
+        "correct": 2,
+        "explanation": "Die Eisfläche des arktischen Meereises schwankt saisonal, erreicht aber ungefähr 10 Millionen km² im Winter."
+      },
+      {
+        "question": "Welche indigene Bevölkerung lebt in der Arktis?",
+        "options": ["Inuit", "Sami", "Yup'ik", "Alle sind korrekt"],
+        "correct": 3,
+        "explanation": "Mehrere indigene Völker leben in der Arktis, darunter die Inuit, Sami und Yup'ik, die sich an die extremen Bedingungen angepasst haben."
+      },
+      {
+        "question": "Welcher Eisbär ist das Raubtier der Arktis?",
+        "options": ["Grizzlybär", "Eisbär", "Schwarzbär", "Polarbär"],
+        "correct": 1,
+        "explanation": "Der Eisbär (auch Polarbär genannt) ist das größte Raubtier der Arktis und ein Meister der Jagd auf Robben und anderen Meeresbewohnern."
+      }
+    ]
+  },
+  "antarktis": {
+    "title": "Antarktis Quiz",
+    "questions": [
+      {
+        "question": "Welcher Kontinent ist die Antarktis?",
+        "options": [
+          "Ein Meeresgebiet",
+          "Ein eigener Kontinent",
+          "Ein Teil von Südamerika",
+          "Ein Inselreich"
+        ],
+        "correct": 1,
+        "explanation": "Die Antarktis ist ein eigener Kontinent und der kälteste, windigste und trockenste Ort der Erde."
+      },
+      {
+        "question": "Wie dick ist das antarktische Eis durchschnittlich?",
+        "options": ["Etwa 1 km", "Etwa 1,6 km", "Etwa 2,5 km", "Etwa 4 km"],
+        "correct": 2,
+        "explanation": "Das antarktische Eis ist durchschnittlich etwa 2.160 Meter (2,5 km) dick und enthält etwa 90% des weltweiten Eises."
+      },
+      {
+        "question": "Welcher Wal ist das größte Tier der Antarktis?",
+        "options": ["Finnwal", "Blauwal", "Pottwal", "Seiwai"],
+        "correct": 1,
+        "explanation": "Der Blauwal ist nicht nur das größte Tier der Antarktis, sondern das größte bekannte Tier der gesamten Erde."
+      }
+    ]
+  }
+}

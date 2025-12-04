@@ -1,0 +1,130 @@
+[
+  {
+    "meerID": "pazifik",
+    "fragen": [
+      {
+        "id": "frage1",
+        "frage": "Welcher Ozean ist der größte der Welt?",
+        "antworten": [
+          { "text": "Atlantischer Ozean", "korrekt": false },
+          { "text": "Indischer Ozean", "korrekt": false },
+          { "text": "Pazifischer Ozean", "korrekt": true },
+          { "text": "Arktischer Ozean", "korrekt": false }
+        ],
+        "erlaeuterung": "Der Pazifische Ozean ist der größte Ozean der Welt und bedeckt etwa ein Drittel der Erdoberfläche."
+      },
+      {
+        "id": "frage2",
+        "frage": "Wie tief ist der Marianengraben, der tiefste Punkt im Pazifik?",
+        "antworten": [
+          { "text": "ca. 5.000 Meter", "korrekt": false },
+          { "text": "ca. 10.000 Meter", "korrekt": true },
+          { "text": "ca. 15.000 Meter", "korrekt": false },
+          { "text": "ca. 20.000 Meter", "korrekt": false }
+        ],
+        "erlaeuterung": "Der Marianengraben erreicht eine Tiefe von etwa 10.994 Metern und ist damit der tiefste Punkt der Erde."
+      },
+      {
+        "id": "frage3",
+        "frage": "Welches Tier ist im Pazifik am weitesten verbreitet?",
+        "antworten": [
+          { "text": "Blauwal", "korrekt": true },
+          { "text": "Großer Weißer Hai", "korrekt": false },
+          { "text": "Delfin", "korrekt": false },
+          { "text": "Seepferdchen", "korrekt": false }
+        ],
+        "erlaeuterung": "Der Blauwal ist das größte Tier der Welt und im Pazifik weit verbreitet."
+      },
+      {
+        "id": "frage4",
+        "frage": "Welche Inselgruppe liegt im Pazifik?",
+        "antworten": [
+          { "text": "Hawaii", "korrekt": true },
+          { "text": "Kanarische Inseln", "korrekt": false },
+          { "text": "Balearen", "korrekt": false },
+          { "text": "Azoren", "korrekt": false }
+        ],
+        "erlaeuterung": "Die Hawaii-Inseln sind eine Inselgruppe im Pazifischen Ozean."
+      },
+      {
+        "id": "frage5",
+        "frage": "Welcher Pazifikstaat ist flächenmäßig der größte?",
+        "antworten": [
+          { "text": "Kanada", "korrekt": false },
+          { "text": "Russland", "korrekt": true },
+          { "text": "Australien", "korrekt": false },
+          { "text": "USA", "korrekt": false }
+        ],
+        "erlaeuterung": "Russland ist flächenmäßig der größte Staat, der an den Pazifik grenzt."
+      },
+      {
+        "id": "frage6",
+        "frage": "Welche Meeresströmung beeinflusst das Klima an der Westküste Nordamerikas?",
+        "antworten": [
+          { "text": "Golfstrom", "korrekt": false },
+          { "text": "Kuroshio-Strom", "korrekt": false },
+          { "text": "Kalifornienstrom", "korrekt": true },
+          { "text": "Benguelastrom", "korrekt": false }
+        ],
+        "erlaeuterung": "Der Kalifornienstrom beeinflusst das Klima an der Westküste Nordamerikas."
+      },
+      {
+        "id": "frage7",
+        "frage": "Welches Korallenriff befindet sich im Pazifik?",
+        "antworten": [
+          { "text": "Great Barrier Reef", "korrekt": true },
+          { "text": "Rotes Meer Riff", "korrekt": false },
+          { "text": "Belize Barrier Reef", "korrekt": false },
+          { "text": "Mesoamerikanisches Riff", "korrekt": false }
+        ],
+        "erlaeuterung": "Das Great Barrier Reef vor der Küste Australiens ist das größte Korallenriff der Welt und befindet sich im Pazifik."
+      }
+    ]
+  },
+  {
+    "meerID": "atlantik",
+    "fragen": [
+      {
+        "id": "frage1",
+        "frage": "Welcher Ozean ist der zweitgrößte der Welt?",
+        "antworten": [
+          { "text": "Indischer Ozean", "korrekt": false },
+          { "text": "Atlantischer Ozean", "korrekt": true },
+          { "text": "Arktischer Ozean", "korrekt": false },
+          { "text": "Südlicher Ozean", "korrekt": false }
+        ],
+        "erlaeuterung": "Der Atlantische Ozean ist der zweitgrößte Ozean der Welt."
+      }
+      /* Hier könnten bis zu 6 weitere Fragen zum Atlantik hinzugefügt werden, um auf 7 zu kommen */
+    ]
+  },
+  {
+    "meerID": "indischerOzean",
+    "fragen": [
+      {
+        "id": "frage1",
+        "frage": "Welcher Ozean liegt zwischen Afrika, Asien und Australien?",
+        "antworten": [
+          { "text": "Pazifischer Ozean", "korrekt": false },
+          { "text": "Atlantischer Ozean", "korrekt": false },
+          { "text": "Indischer Ozean", "korrekt": true },
+          { "text": "Arktischer Ozean", "korrekt": false }
+        ],
+        "erlaeuterung": "Der Indische Ozean liegt zwischen Afrika, Asien und Australien."
+      },
+      {
+        "id": "frage2",
+        "frage": "Welches Meer grenzt nicht an den Indischen Ozean?",
+        "antworten": [
+          { "text": "Arabisches Meer", "korrekt": false },
+          { "text": "Rotes Meer", "korrekt": false },
+          { "text": "Mittelmeer", "korrekt": true },
+          { "text": "Andamanensee", "korrekt": false }
+        ],
+        "erlaeuterung": "Das Mittelmeer grenzt nicht an den Indischen Ozean."
+      }
+      /* Hier könnten bis zu 6 weitere Fragen zum Indischen Ozean hinzugefügt werden, um auf 7 zu kommen */
+    ]
+  }
+]
+/*7 fragen pro meerID, evtl mehr und dann dynamisch 7 daraus auswählen nach dem muster oben*/
