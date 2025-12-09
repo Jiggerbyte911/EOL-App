@@ -21,53 +21,29 @@
 <!--Bilderslider-->
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-indicators">
+    @for (picture of ozean.picturesLinkList.slice(0, -1); track picture; let i = $index) {
     <button
       type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
+      data-bs-target="#carouselExample"
+      [attr.data-bs-slide-to]="i"
+      [class.active]="i === 0"
+      [attr.aria-current]="i === 0 ? 'true' : 'false'"
+      [attr.aria-label]="'Slide ' + (i + 1)"
     ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
+    }
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img [src]="ozean.picturesLinkList[0] || '/platzhalter.webp'" class="d-block w-100" />
+    @for (picture of ozean.picturesLinkList.slice(0, -1); track picture; let i = $index) {
+    <div [class]="i === 0 ? 'carousel-item active' : 'carousel-item'">
+      <img [src]="picture || '/platzhalter.webp'" class="d-block w-100" [alt]="'Bild ' + (i + 1)" />
+      @if (ozean.picturesCaptions && ozean.picturesCaptions[i]) {
       <div class="carousel-caption">
-        <h5>Hawaii-Mönchsrobbe</h5>
-        <p>Eine der seltensten Robben der Welt, die man nur um Hawaii findet.</p>
+        <h5>{{ ozean.picturesCaptions[i].title }}</h5>
+        <p>{{ ozean.picturesCaptions[i].description }}</p>
       </div>
+      }
     </div>
-    <div class="carousel-item">
-      <img [src]="ozean.picturesLinkList[1] || '/platzhalter.webp'" class="d-block w-100" />
-      <div class="carousel-caption">
-        <h5>Vaquita-Schweinswal</h5>
-        <p>Das kleinste und am stärksten bedrohte Meeressäugetier der Welt.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img
-        [src]="ozean.picturesLinkList[2] || '/platzhalter.webp'"
-        class="d-block w-100"
-        alt="bild 3"
-      />
-      <div class="carousel-caption">
-        <h5>Japanische Riesenkrabbe</h5>
-        <p>Der größte Krebs der Welt! Sie kann eine Beinspannweite von fast 4 Metern haben.</p>
-      </div>
-    </div>
+    }
   </div>
   <button
     class="carousel-control-prev"

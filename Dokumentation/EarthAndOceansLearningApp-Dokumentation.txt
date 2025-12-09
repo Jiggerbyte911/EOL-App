@@ -1,0 +1,246 @@
+
+
+IHK-Abschlussprüfung Sommer 2021
+Fachinformatiker Anwendungsentwicklung
+
+Dokumentation zur betrieblichen Projektarbeit
+
+Titel oder Name des Projekts
+
+
+   Abgabetermin:   TT.MM.JJJJ
+
+   Prüfungsbewerber:  Vorname Nachname
+       Straße Haus-Nr.
+       PLZ Ort
+   Azubi-Nr.:   000000
+   Prüfling-Nr.:   999999
+   Prüfungsausschuss:  00000AB
+
+   Ausbildungsstätte:  BITLC GmbH
+       Im Defdahl 10 G
+       44141 Dortmund
+
+   Praktikumsbetrieb:  Firma
+       Straße Haus-Nr.
+       PLZ Ort
+   Projektbetreuer:  Vorname Nachname
+
+Inhaltsverzeichnis
+
+1 Einleitung 1
+1.1 Projektumfeld 1
+1.2 Projektziel 1
+1.3 Projektbegründung 1
+1.4 Projektschnittstellen 1
+1.5 Abgrenzungskriterien 1
+2 Projektplanung 2
+2.1 Projektphasen 2
+2.2 Abweichungen vom Projektantrag 2
+2.3 Ressourcenplanung 2
+2.4 Entwicklungsprozess 2
+3 Analysephase 2
+3.1 Ist-Analyse 2
+3.2 Soll-Konzept 3
+3.2.1 Fachliche Anforderungen 3
+3.2.2 Technische Anforderungen 3
+3.3 Wirtschaftlichkeitsanalyse 3
+3.3.1 Make-or-buy-Entscheidung 3
+3.3.2 Projektkosten 3
+3.3.3 Amortisationsdauer 3
+3.4 Nutzwertanalyse 4
+3.5 Anwendungsfälle 4
+3.6 Qualitätsanforderungen 4
+3.7 Lastenheft 4
+4 Entwurfsphase 4
+4.1 Zielplattform 4
+4.2 Architekturdesign 5
+4.3 Entwurf der Benutzeroberfläche 5
+4.4 Datenmodell 5
+4.5 Geschäftslogik 5
+4.6 Maßnahmen zur Qualitätssicherung 5
+4.7 Pflichtenheft 6
+5 Implementierungsphase 6
+5.1 Implementierung der Datenstrukturen 6
+5.2 Implementierung der Oberflächen 6
+5.3 Implementierung der Geschäftslogik 6
+6 Testphase und Qualitätskontrolle 7
+7 Abnahme 7
+8 Dokumentation 7
+9 Fazit 7
+9.1 Soll-/Ist-Vergleich 7
+9.2 Wirtschaftlichkeitsbetrachtung 8
+9.3 Erfahrungen 8
+9.4 Ausblick in die Zukunft 8
+A Anhang i
+A.1 Zeitplanung im Detail i
+A.2 UML Anwendungsfall-Diagramm i
+A.3 Auszug Lastenheft i
+A.4 Mockups i
+A.5 Entity-Relationship-Modell i
+A.6 UML Klassen-Diagramm i
+A.7 Auszug Pflichtenheft i
+A.8 Quelltexte i
+A.9 Testprotokolle i
+A.10 Abnahmeprotokoll i
+A.11 Entwickler-Dokumentation i
+A.12 Zeitplanung mit Soll-/Ist-Vergleich i
+
+
+1	Einleitung
+Dieses Dokument zeigt eine beispielhafte Gliederung für eine Dokumentation.
+Es enthält die Punkte, die in einer Dokumentation normalerweise vorhanden sein sollten.
+Je nach Projekt können einzelne Punkte aber durchaus überflüssig sein oder weitere Punkte erforderlich sein.
+Das Dokument basiert in weiten Teilen auf der Vorlage von Stefan Macke.
+1.1	Projektumfeld
+• 	Kurze Vorstellung des Ausbildungsbetriebs (Gründung, Standort, Geschäftsfeld, Mitarbeiterzahl usw.)
+• 	Wer ist Auftraggeber/Kunde des Projekts?
+1.2	Projektziel
+• 	Kurze Beschreibung des Projekts.
+• 	Was soll damit erreicht werden?
+1.3	Projektbegründung
+• 	Warum ist das Projekt sinnvoll (z.B. Kosten- oder Zeitersparnis, weniger Fehler)?
+• 	Was ist die Motivation hinter dem Projekt?
+1.4	Projektschnittstellen
+• 	Mit welchen anderen Systemen interagiert die Anwendung (technische Schnittstellen)?
+• 	Wer genehmigt das Projekt bzw. stellt Mittel zur Verfügung?
+• 	Wer sind die Benutzer der Anwendung?
+• 	Wem muss das Ergebnis präsentiert werden?
+1.5	Abgrenzungskriterien
+• 	Was ist nicht Teil des Projekts (besonders wichtig bei Teilprojekten)?
+2	Projektplanung
+2.1	Projektphasen
+• 	In welchem Zeitraum und unter welchen Rahmenbedingungen (z.B. Tagesarbeitszeit) findet das Projekt statt?
+• 	Verfeinerung der Zeitplanung, die bereits im Projektantrag vorgestellt wurde.
+• 	Hier kann man eine grobe Zeitplanung mit den Haupt-Phasen einfügen. Die detaillierte Zeitplanung kommt dann in den Anhang A.1 Zeitplanung im Detail (mit entsprechendem Verweis).
+2.2	Abweichungen vom Projektantrag
+• 	Sollte es Abweichungen zum Projektantrag geben (z.B. Zeitplanung, Inhalt des Projekts, neue Anforderungen), müssen diese explizit aufgeführt und begründet werden.
+2.3	Ressourcenplanung
+• 	Detaillierte Planung der benötigten Sachmittel wie z.B. Hard- und Software, Räumlichkeiten, etc.
+• 	Meist sind auch personelle Ressourcen einzuplanen, wie z.B. unterstützende Mitarbeiter oder der Auftraggeber für die Abnahme des Projekts.
+• 	Hinweis: Häufig werden hier Ressourcen vergessen, die als selbstverständlich angesehen werden (z.B. PC, Büro).
+2.4	Entwicklungsprozess
+• 	Welcher Entwicklungsprozess wird bei der Bearbeitung des Projekts verfolgt (z.B. Wasserfall, agiler Prozess)?
+3	Analysephase
+3.1	Ist-Analyse
+• 	Wie ist die bisherige Situation (z.B. bestehende Programme, Wünsche der Mitarbeiter)?
+• 	Wo liegen aktuell die Probleme?
+3.2	Soll-Konzept
+• 	Ein Konzept, wie die in der Ist-Analyse identifizierten Probleme gelöst werden können.
+3.2.1	Fachliche Anforderungen
+• 	Welchen fachlichen Anforderungen muss die angestrebte Lösung gerecht werden?
+3.2.2	Technische Anforderungen
+• 	Welchen technischen Anforderungen muss die angestrebte Lösung gerecht werden?
+3.3	Wirtschaftlichkeitsanalyse
+• 	Rentiert sich das Projekt für das Unternehmen?
+Make-or-buy-Entscheidung
+• 	Gibt es vielleicht schon ein fertiges Produkt, das alle Anforderungen des Projekts abdeckt?
+• 	Wenn ja, wieso wird das Projekt trotzdem umgesetzt?
+Projektkosten
+• 	Welche Kosten fallen bei der Umsetzung des Projekts im Detail an.
+• 	Hier müssen die unter 2.3 Ressourcenplanung aufgeführten Ressourcen berücksichtigt werden.
+• 	Die Kosten für Sachmittel müssen auf die 80h des Projekts umgerechnet werden, Personalkosten je nach Dauer des Einsatzes. Die Rechenwege sollten dabei auch aufgeführt werden.
+• 	Am Ende sollte man zusätzlich eine Tabelle mit allen anfallenden Kosten einfügen.
+Amortisationsdauer
+• 	Welche monetären Vorteile bietet das Projekt (z.B. Einsparung von Lizenzkosten, Arbeitszeitersparnis, bessere Usability, Korrektheit)?
+• 	Wann hat sich das Projekt amortisiert?
+• 	Hier sollte man eine Grafik mit dem alten und dem neuen Kostenverlauf einfügen, die auch den Punkt zeigt, ab dem sich das Projekt rentiert.
+• 	Der Rechenweg sollte ebenfalls aufgeführt werden.
+3.4	Nutzwertanalyse
+• 	Darstellung des nicht-monetären Nutzens (z.B. Vorher-/Nachher-Vergleich anhand eines Wirtschaftlichkeitskoeffizienten).
+3.5	Anwendungsfälle
+• 	Welche Anwendungsfälle soll das Projekt abdecken?
+• 	Einen oder mehrere interessante Anwendungsfälle kann man exemplarisch durch ein Aktivitätsdiagramm oder eine EPK detailliert beschreiben.
+• 	Ein Use-Case-Diagramm sollte je nach Größe entweder hier eingefügt werden oder im Anhang A.2 UML Anwendungsfall-Diagramm platziert werden.
+3.6	Qualitätsanforderungen
+• 	Welche Qualitätsanforderungen werden an die Anwendung gestellt, z.B. hinsichtlich Performance, Usability, Effizienz etc. (https://de.wikipedia.org/wiki/ISO/IEC_9126)?
+• 	Hier kann man auch zusätzlich eine tabellarische Übersicht einfügen.
+3.7	Lastenheft
+• 	Auszüge aus dem Lastenheft, wenn es im Rahmen des Projekts erstellt wurde.
+• 	Mögliche Inhalte: Funktionen des Programms (Muss/Soll/Wunsch), User Stories, Benutzerrollen
+• 	Aus Platzgründen sollte hier aber nur ein kurzer Text stehen und der Auszug aus dem Lastenheft im Anhang A.3 Auszug Lastenheft platziert werden.
+4	Entwurfsphase
+4.1	Zielplattform
+• 	Beschreibung der Kriterien zur Auswahl der Zielplattform (u.a. Programmiersprache, Datenbank, Client/Server, Hardware).
+• 	Hier sollten evtl. mögliche Alternativen genannt und abgewogen werden.
+4.2	Architekturdesign
+• 	Beschreibung und Begründung der gewählten Anwendungsarchitektur (z.B. MVC).
+• 	Ggfs. Bewertung und Auswahl von verwendeten Frameworks sowie ggfs. eine kurze Einführung in die Funktionsweise des verwendeten Frameworks.
+• 	Auch hier sollten mögliche Alternativen genannt und abgewogen werden.
+4.3	Entwurf der Benutzeroberfläche
+• 	Entscheidung für die gewählte Benutzeroberfläche (z.B. GUI, Webinterface).
+• 	Beschreibung des visuellen Entwurfs der konkreten Oberfläche (z.B. Mockups, Menüführung).
+• 	Ggfs. Erläuterung von angewendeten Richtlinien zur Usability und Verweis auf Corporate Design.
+• 	Mockups können hier oder ggf. im Anhang A.4 Mockups platziert werden.
+4.4	Datenmodell
+• 	Entwurf/Beschreibung der Datenstrukturen mit kurzer Beschreibung der wichtigsten verwendeten Entitäten.
+• 	ERM/Tabellenmodell, JSON-Struktur, etc. können je nach Größe hier oder im Anhang A.5 Entity-Relationship-Modell platziert werden.
+4.5	Geschäftslogik
+• 	Modellierung und Beschreibung der wichtigsten Bereiche der Geschäftslogik (z.B. mit Komponenten-, Klassen-, Sequenz-, Datenflussdiagramm, Programmablaufplan, Struktogramm, EPK).
+• 	Wie wird die erstellte Anwendung in den Arbeitsfluss des Unternehmens integriert?
+• 	Diagramme wieder je nach Größe hier oder im Anhang A.6 UML Klassen-Diagramm.
+4.6	Maßnahmen zur Qualitätssicherung
+• 	Welche Maßnahmen werden ergriffen, um die Qualität des Projektergebnisses (siehe 3.6 Qualitätsanforderungen) zu sichern (z.B. automatische Tests, Anwendertests)?
+• 	Ggfs. Definition von Testfällen und deren Durchführung (automatisch oder manuell).
+4.7	Pflichtenheft
+• 	Auszüge aus dem Pflichtenheft, wenn es im Rahmen des Projekts erstellt wurde.
+• 	Auch hier sollte ein kurzer Text auf die Erstellung des Pflichtenhefts hinweisen, die Auszüge kommen dann in den Anhang A.7 Auszug Pflichtenheft.
+5	Implementierungsphase
+Die Implementierungsphase ist sehr stark abhängig vom konkreten Projekt. Die folgenden Punkte sollen und können daher nur als Orientierungshilfe dienen.
+5.1	Implementierung der Datenstrukturen
+• 	Beschreibung der angelegten Datenbank (z.B. Generierung von SQL aus Modellierungswerkzeug oder händisches Anlegen), XML-Schemas usw.
+• 	Ggf. auch Beschreibung der Anbindung an eine bestehende Datenbank.
+5.2	Implementierung der Oberflächen
+• 	Beschreibung der Implementierung der Benutzeroberfläche, falls dies separat zur Implementierung der Geschäftslogik erfolgt (z.B. bei HTML-Oberflächen und Stylesheets).
+• 	Ggfs. Beschreibung des Corporate Designs und dessen Umsetzung in der Anwendung.
+• 	Screenshots der Anwendung
+5.3	Implementierung der Geschäftslogik
+• 	Beschreibung des Vorgehens bei der Umsetzung/Programmierung der entworfenen Anwendung.
+• 	Ggfs. interessante Funktionen/Algorithmen im Detail vorstellen, verwendete Entwurfsmuster zeigen, Quelltextbeispiele zeigen.
+• 	Auch hier sollte je nach Umfang der Quelltexte abgewogen werden, ob sie hier oder im Anhang A.8 Quelltexte platziert werden.
+6	Testphase und Qualitätskontrolle
+• 	Welche Tests (z.B. Unit-, Integrations-, Systemtests) wurden durchgeführt (siehe 4.6 Maßnahmen zur Qualitätssicherung).
+• 	Welche Ergebnisse haben die Tests ergeben?
+• 	Hier kann man Testprotokolle, Log-Dateien, Screenshots, etc. einfügen oder in den Anhang A.9 Testprotokolle verschieben.
+7	Abnahme
+• 	Wurde die Anwendung offiziell abgenommen?
+• 	Wer hat das gemacht, oder wer war daran beteiligt?
+• 	Gab es evtl. eine Art von Präsentation?
+• 	Ein Abnahmeprotokoll kann dann hier oder im Anhang A.10 Abnahmeprotokoll platziert werden.
+8	Dokumentation
+• 	Wie wurde die Anwendung für die Benutzer/Administratoren/Entwickler dokumentiert (z.B. Benutzerhandbuch, API-Dokumentation)?
+• 	Wie wurde die Dokumentation erstellt (automatisch oder manuell)?
+• 	Ein Ausschnitt des beschriebenen Dokuments sollte dann auch hier oder im Anhang A.11 Entwickler-Dokumentation zu finden sein.
+• 	Hinweis: Je nach Zielgruppe gelten bestimmte Anforderungen für die Dokumentation (z.B. keine IT-Fachbegriffe in einer Anwenderdokumentation verwenden, aber auf jeden Fall in einer Dokumentation für den IT-Bereich).
+9	Fazit
+9.1	Soll-/Ist-Vergleich
+• 	Wurde das Projektziel erreicht und wenn nein, warum nicht?
+• 	Ist der Auftraggeber mit dem Projektergebnis zufrieden und wenn nein, warum nicht?
+• 	Hier sollte die detaillierte Zeitplanung noch einmal mit den Spalten „Soll“, „Ist“ und „Differenz“ im Anhang A.13 Zeitplanung mit Soll-/Ist-Vergleich platziert werden.
+• 	Auch bei den Kosten kann es Abweichungen geben, z.B. wenn beteiligte Personen länger oder kürzer als geplant involviert waren oder zusätzliche Sachmittel eingesetzt werden mussten.
+• 	Hinweis: Die Projektplanung muss nicht strikt eingehalten werden. Vielmehr sind Abweichungen sogar als normal anzusehen. Sie müssen nur vernünftig begründet werden (z.B. durch Änderungen an den Anforderungen, unter-/überschätzter Aufwand).
+9.2	Wirtschaftlichkeitsbetrachtung
+• 	Nachbetrachtung des Projekts unter wirtschaftlichen Gesichtspunkten.
+• 	Hat sich das Projekt im Nachhinein gelohnt?
+• 	Wird es so wie es umgesetzt wurde erfolgreich sein?
+9.3	Erfahrungen
+• 	Was hat der Prüfling bei der Durchführung des Projekts gelernt (z.B. Zeitplanung, Vorteile der eingesetzten Frameworks, Änderungen der Anforderungen)?
+• 	Ein wenig Selbstkritik steht einem hier immer ganz gut zu Gesicht.
+9.4	Ausblick in die Zukunft
+• 	Wie wird sich das Projekt in Zukunft weiterentwickeln?
+• 	Gibt es geplante Erweiterungen?
+• 	Haben sich inzwischen geänderte Anforderungen ergeben?
+A	Anhang
+A.1	Zeitplanung im Detail
+A.2	UML Anwendungsfall-Diagramm
+A.3	Auszug Lastenheft
+A.4	Mockups
+A.5	Entity-Relationship-Modell
+A.6	UML Klassen-Diagramm
+A.7	Auszug Pflichtenheft
+A.8	Quelltexte
+A.9	Testprotokolle
+A.10	Abnahmeprotokoll
+A.11	Entwickler-Dokumentation
+A.12	Benutzer-Dokumentation
+A.13	Zeitplanung mit Soll-/Ist-Vergleich

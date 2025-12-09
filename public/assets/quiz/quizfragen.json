@@ -25,6 +25,24 @@
         "options": ["Golfstrom", "Kuroshio-Strom", "Zirkumpolarstrom", "Kaliforniastrom"],
         "correct": 2,
         "explanation": "Der Zirkumpolarstrom (auch Antarktischer Zirkumpolarstrom) ist mit einer Transportrate von etwa 130 Millionen Kubikmeter pro Sekunde der größte und stärkste Meeresstrrom der Welt."
+      },
+      {
+        "question": "Welchen Prozentsatz der Erdoberfläche bedeckt der Pazifische Ozean?",
+        "options": ["Etwa 20%", "Etwa 30%", "Über ein Drittel", "Etwa 50%"],
+        "correct": 2,
+        "explanation": "Der Pazifische Ozean ist so groß, dass er über ein Drittel der Erdoberfläche bedeckt. Alle anderen Ozeane zusammen sind immer noch kleiner als der Pazifik!"
+      },
+      {
+        "question": "Welche berühmte Inselgruppe liegt im Pazifik?",
+        "options": ["Grönland", "Hawaii", "Neuseeland", "Japan"],
+        "correct": 1,
+        "explanation": "Hawaii ist eine berühmte Inselgruppe im Pazifischen Ozean und ein Paradies mit wunderschönen Stränden und einzigartigen Tieren und Pflanzen."
+      },
+      {
+        "question": "Welcher warme Wind tritt im Pazifik auf?",
+        "options": ["Föhn", "El Niño", "Mistral", "Passat"],
+        "correct": 1,
+        "explanation": "El Niño ist ein warmer Wind im Pazifik, der Stürme und andere Wetterphänomene verursacht und das globale Klima beeinflusst."
       }
     ]
   },
@@ -64,6 +82,34 @@
         "options": ["Afrika", "Südamerika", "Australien", "Europa"],
         "correct": 2,
         "explanation": "Australien grenzt nicht an den Atlantischen Ozean. Der Atlantik grenzt an Afrika, Europa, Nord- und Südamerika sowie an die Antarktis."
+      },
+      {
+        "question": "Welche Insel ist ein Teil des Mittelatlantischen Rückens?",
+        "options": ["Großbritannien", "Grönland", "Island", "Irland"],
+        "correct": 2,
+        "explanation": "Island ist ein Teil des Mittelatlantischen Rückens und ragt über die Wasseroberfläche hinaus. Es ist ein Beispiel dafür, wie das Gebirge aus dem Wasser ragt."
+      },
+      {
+        "question": "Welche Tiere leben im Atlantischen Ozean?",
+        "options": [
+          "Nur kleine Fische",
+          "Delfine, Haie, Meeresschildkröten und Wale",
+          "Nur Korallen",
+          "Nur Muscheln"
+        ],
+        "correct": 1,
+        "explanation": "Im Atlantik leben viele verschiedene Tiere: von winzigen Planktonorganismen bis zu riesigen Walen, Delfinen, Haien, Meeresschildkröten und vielen Fischarten."
+      },
+      {
+        "question": "Was besonders spannend an den Tiefseegräben im Atlantik ist:",
+        "options": [
+          "Viel Wärme",
+          "Viel Licht",
+          "Lebewesen in völliger Dunkelheit",
+          "Keine Lebewesen"
+        ],
+        "correct": 2,
+        "explanation": "In den Tiefseegräben des Atlantiks gibt es faszinierende Lebewesen, die in völliger Dunkelheit leben und ganz anders aussehen als die Tiere an der Oberfläche."
       }
     ]
   },
@@ -87,6 +133,50 @@
         "options": ["Sommermonsun", "Wintermonsun", "Südwestmonsun", "Alle sind gleich"],
         "correct": 2,
         "explanation": "Der Südwestmonsun ist einer der dominantesten Wettermuster des Indischen Ozeans und beeinflusst die Schifffahrt und das Wetter in der Region stark."
+      },
+      {
+        "question": "Ist der Indische Ozean wärmer als der Atlantik?",
+        "options": [
+          "Nein, er ist kälter",
+          "Ja, er ist wärmer",
+          "Sie haben dieselbe Temperatur",
+          "Das ist jahreszeitlich unterschiedlich"
+        ],
+        "correct": 1,
+        "explanation": "Der Indische Ozean ist oft wärmer als der Atlantik und der Pazifik. Diese Wärme macht ihn besonders attraktiv für Korallen und bestimmte Meerestiere."
+      },
+      {
+        "question": "Welche bekannten Inselparadiese liegen im Indischen Ozean?",
+        "options": [
+          "Hawaii und Fiji",
+          "Malediven und Seychellen",
+          "Neuseeland",
+          "Korsika und Sardinien"
+        ],
+        "correct": 1,
+        "explanation": "Die Malediven und Seychellen sind berühmte Inselparadiese im Indischen Ozean, die aus wunderschönen Korallenriffen bestehen."
+      },
+      {
+        "question": "Welche Wirkung haben die Monsunwinde?",
+        "options": [
+          "Sie ändern die Temperatur nicht",
+          "Sie ändern zweimal im Jahr ihre Richtung",
+          "Sie blasen nur im Winter",
+          "Sie existieren nicht mehr"
+        ],
+        "correct": 1,
+        "explanation": "Die Monsunwinde ändern zweimal im Jahr komplett ihre Richtung und bestimmen das Klima und die Strömungen im Indischen Ozean."
+      },
+      {
+        "question": "Welche Auswirkung haben die Monsunwinde auf die Küsten?",
+        "options": [
+          "Keine",
+          "Sie bringen Schneefall",
+          "Sie bringen viel Regen an die Küsten Asiens",
+          "Sie senken den Meeresspiegel"
+        ],
+        "correct": 2,
+        "explanation": "Der Monsun bringt im Sommer viel Regen an die Küsten Asiens und ist wichtig für die Fische und das Klima der Region."
       }
     ]
   },
@@ -115,6 +205,50 @@
         "options": ["Grizzlybär", "Eisbär", "Schwarzbär", "Polarbär"],
         "correct": 1,
         "explanation": "Der Eisbär (auch Polarbär genannt) ist das größte Raubtier der Arktis und ein Meister der Jagd auf Robben und anderen Meeresbewohnern."
+      },
+      {
+        "question": "Ist die Arktis eine Landmasse oder ein Ozean?",
+        "options": [
+          "Eine Landmasse wie die Antarktis",
+          "Ein Ozean bedeckt mit Meereis",
+          "Eine Inselgruppe",
+          "Ein Berg"
+        ],
+        "correct": 1,
+        "explanation": "Die Arktis ist kein Kontinent wie die Antarktis, sondern ein Ozean, der fast das ganze Jahr über von einer dicken Schicht Meereis bedeckt ist."
+      },
+      {
+        "question": "Wie viele Jahreszeiten gibt es in der Arktis?",
+        "options": [
+          "Vier wie überall",
+          "Zwei: Winter und Sommer",
+          "Nur Winter",
+          "Keine festen Jahreszeiten"
+        ],
+        "correct": 1,
+        "explanation": "In der Arktis gibt es nur zwei Jahreszeiten: einen langen, dunklen Winter und einen kurzen, hellen Sommer."
+      },
+      {
+        "question": "Wie haben sich Tiere der Arktis an die Kälte angepasst?",
+        "options": [
+          "Sie haben keine Anpassungen",
+          "Sie haben nur dickes Fell",
+          "Sie haben Fettschichten (Blubber) und dichtes Fell",
+          "Sie wandern nach Süden"
+        ],
+        "correct": 2,
+        "explanation": "Tiere der Arktis haben spezielle Fettschichten (Blubber) und dichtes Fell, um in den extrem kalten Temperaturen zu überleben."
+      },
+      {
+        "question": "Welche Rolle spielen Algen in der arktischen Nahrungskette?",
+        "options": [
+          "Keine Rolle",
+          "Sie sind giftig",
+          "Sie sind eine wichtige Nahrungsquelle",
+          "Sie erzeugen alle Wärme"
+        ],
+        "correct": 2,
+        "explanation": "Es gibt spezielle Algen, die unter dem Eis in der Arktis wachsen und eine wichtige Nahrungsquelle für viele Meerestiere darstellen."
       }
     ]
   },
@@ -143,6 +277,45 @@
         "options": ["Finnwal", "Blauwal", "Pottwal", "Seiwai"],
         "correct": 1,
         "explanation": "Der Blauwal ist nicht nur das größte Tier der Antarktis, sondern das größte bekannte Tier der gesamten Erde."
+      },
+      {
+        "question": "Welcher Meeresstrrom umfließt die Antarktis?",
+        "options": [
+          "Golfstrom",
+          "Kuroshio-Strom",
+          "Antarktische Zirkumpolarströmung",
+          "Kaliforniastrom"
+        ],
+        "correct": 2,
+        "explanation": "Die Antarktische Zirkumpolarströmung ist die stärkste Meeresströmung der Erde und umfließt den Kontinent wie ein Zaun."
+      },
+      {
+        "question": "Was ist Krill?",
+        "options": ["Ein Fisch", "Ein großer Wal", "Ein winziges Krebstier", "Eine Algenart"],
+        "correct": 2,
+        "explanation": "Krill ist ein winziges Krebstier, das in enormen Mengen in der Antarktis vorkommt und die Basis der Nahrungskette bildet."
+      },
+      {
+        "question": "Warum ist das antarktische Wasser so nahrhaft?",
+        "options": [
+          "Es gibt dort keine Nährstoffe",
+          "Kaltes Wasser speichert Sauerstoff und Nährstoffe besser",
+          "Es wird durch Menschen gedüngt",
+          "Das ist es nicht"
+        ],
+        "correct": 1,
+        "explanation": "Kaltes Wasser kann Sauerstoff und Nährstoffe besser speichern als warmes Wasser, daher ist das antarktische Meer unglaublich nahrhaft."
+      },
+      {
+        "question": "Welche Tiere leben in der Antarktis?",
+        "options": [
+          "Nur Pinguine",
+          "Pinguine, Robben, Wale und Vögel",
+          "Keine Tiere",
+          "Nur Fische"
+        ],
+        "correct": 1,
+        "explanation": "Im Antarktischen Ozean leben viele Tiere, die an die extremen Bedingungen angepasst sind: Pinguine, Robben, Wale und verschiedene Vogelarten."
       }
     ]
   }

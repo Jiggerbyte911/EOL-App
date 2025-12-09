@@ -27,8 +27,8 @@ export class Sprechblase implements AfterViewInit, OnDestroy {
   private cdr = inject(ChangeDetectorRef);
   private ngZone = inject(NgZone);
 
-  sprechblasenText: string =
-    'Na, ihr kleinen Flitzpiepen? Lust auf eine spannende Reise durch die Welt der Erde und Ozeane?';
+  sprechblasenText: string = '';
+  oceanName: string = '';
   quizScore: string = '';
 
   ngAfterViewInit(): void {
@@ -88,7 +88,7 @@ export class Sprechblase implements AfterViewInit, OnDestroy {
     // Überprüfe auf verschiedene Routen - QUIZ MUSS ZUERST CHECKED WERDEN!
     if (currentUrl === '' || currentUrl === '/') {
       this.sprechblasenText =
-        'Na, Lust auf eine spannende Reise durch die Welt der Erde und Ozeane?<br>Am Ende kannst du dein Wissen sogar mit einem Quiz testen!<br>Wenn du wieder zurück auf diese Seite willst, musst du nur auf das Logo oben in der der Mitte der Seite klicken.<br>Viel Erfolg!';
+        'Na, Lust auf eine spannende Reise durch die Welt der Erde und Ozeane?<br><br>Klicke einfach auf der Weltkarte auf den Ozean, über den du mehr erfahren möchtest.<br><br>Am Ende kannst du dein Wissen sogar mit einem Quiz testen!<br><br>Wenn du wieder zurück auf diese Seite willst, musst du nur auf das Logo oben in der der Mitte der Seite klicken.<br><br>Viel Erfolg!';
       this.quizScore = '';
     } else if (currentUrl.includes('/quiz')) {
       // Quiz-Route (kann /ozeane/:id/quiz sein)
@@ -105,19 +105,19 @@ export class Sprechblase implements AfterViewInit, OnDestroy {
       if (oceanMatch) {
         const oceanId = oceanMatch[1];
         const oceanNames: { [key: string]: string } = {
-          pazifik: 'Pazifik',
-          atlantik: 'Atlantik',
-          indischer: 'Indischer Ozean',
-          arktis: 'Arktischen Ozean',
-          antarktis: 'Antarktis',
+          pazifik: 'Der Pazifik',
+          atlantik: 'Der Atlantik',
+          indisch: 'Der Indische Ozean',
+          arktis: 'Der Arktische Ozean',
+          antarktis: 'Die Antarktis',
         };
-        const oceanName = oceanNames[oceanId] || oceanId;
-        this.sprechblasenText = `Wow! Der ${oceanName} ist faszinierend, nicht wahr? Jetzt teste dein Wissen!`;
+        this.oceanName = oceanNames[oceanId] || oceanId;
+        this.sprechblasenText = `Wow! ${this.oceanName} ist faszinierend, nicht wahr? Jetzt teste dein Wissen!`;
         this.quizScore = '';
       }
     } else {
       this.sprechblasenText =
-        'Na, ihr kleinen Flitzpiepen? Lust auf eine spannende Reise durch die Welt der Erde und Ozeane?';
+        'Da scheint etwas schief gelaufen zu sein. Kehre zur Startseite zurück und versuche es erneut.';
       this.quizScore = '';
     }
   }
