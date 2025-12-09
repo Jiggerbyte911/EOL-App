@@ -100,18 +100,18 @@ A.13 Zeitplanung mit Soll-/Ist-Vergleich .......................................
 
 1.1 Projektumfeld
 
-Die Ausbildungsstätte/der Praktikumsbetrieb ist ein innovatives Unternehmen im Bereich 
-[Beschreibung]. Das Unternehmen beschäftigt sich mit der Entwicklung von Softwarelösungen 
+Die Ausbildungsstätte/der Praktikumsbetrieb ist ein innovatives Unternehmen im Bereich
+[Beschreibung]. Das Unternehmen beschäftigt sich mit der Entwicklung von Softwarelösungen
 für [Zielgruppe].
 
-Im Kontext der Digitalisierung und dem Trend zu E-Learning-Anwendungen entstand die Idee, 
-eine interaktive Lernapplikation für Kinder zu entwickeln, die sich mit Ozeanographie und 
+Im Kontext der Digitalisierung und dem Trend zu E-Learning-Anwendungen entstand die Idee,
+eine interaktive Lernapplikation für Kinder zu entwickeln, die sich mit Ozeanographie und
 Meereskunde auseinandersetzt. Die Zielgruppe sind Kinder im Grundschulalter (ca. 6-12 Jahre).
 
 1.2 Projektziel
 
-Die Aufgabe bestand darin, eine interaktive Single-Page-Application (SPA) zu entwickeln, 
-die es Kindern ermöglicht, die fünf Ozeane der Erde (Pazifik, Atlantik, Indischer Ozean, 
+Die Aufgabe bestand darin, eine interaktive Single-Page-Application (SPA) zu entwickeln,
+die es Kindern ermöglicht, die fünf Ozeane der Erde (Pazifik, Atlantik, Indischer Ozean,
 Arktis, Antarktis) auf spielerische und lehrreiche Weise zu erkunden.
 
 Die Anwendung soll folgende Funktionen bereitstellen:
@@ -127,17 +127,17 @@ Die Anwendung soll folgende Funktionen bereitstellen:
 
 Die Projektumsetzung ist sinnvoll aus folgenden Gründen:
 
-• Bildunglicher Nutzen: Das Projekt vermittelt Kindern grundlegende Kenntnisse über 
-  die Ozeane auf unterhaltsame und interaktive Weise.
+• Bildunglicher Nutzen: Das Projekt vermittelt Kindern grundlegende Kenntnisse über
+die Ozeane auf unterhaltsame und interaktive Weise.
 
-• Zeitersparnis für Pädagogen: Lehrer können die App im Unterricht einsetzen und sparen 
-  dadurch Vorbereitungszeit.
+• Zeitersparnis für Pädagogen: Lehrer können die App im Unterricht einsetzen und sparen
+dadurch Vorbereitungszeit.
 
-• Marktpotenzial: Mit der wachsenden Nachfrage nach digitalen Lernmitteln bietet sich 
-  hier eine Geschäftsmöglichkeit.
+• Marktpotenzial: Mit der wachsenden Nachfrage nach digitalen Lernmitteln bietet sich
+hier eine Geschäftsmöglichkeit.
 
-• Technologieeinsatz: Das Projekt demonstriert moderne Web-Technologien (Angular, 
-  TypeScript, RxJS) in einer praktischen Anwendung.
+• Technologieeinsatz: Das Projekt demonstriert moderne Web-Technologien (Angular,
+TypeScript, RxJS) in einer praktischen Anwendung.
 
 1.4 Projektschnittstellen
 
@@ -213,10 +213,10 @@ Folgende Abweichungen vom ursprünglichen Projektantrag sind zu verzeichnen:
 
 [XXXXX ABWEICHUNGEN EINTRAGEN XXXXX]
 z.B.:
-• Erweiterung Quiz-Fragen: Statt 4 Fragen pro Ozean wurden 7 Fragen implementiert, 
-  um den Umfang zu erhöhen.
-• Hinzufügung Maskottchen-Sprechblase: Das Maskottchen wurde erweitert um dynamische 
-  Nachrichten basierend auf der aktuellen Route.
+• Erweiterung Quiz-Fragen: Statt 4 Fragen pro Ozean wurden 7 Fragen implementiert,
+um den Umfang zu erhöhen.
+• Hinzufügung Maskottchen-Sprechblase: Das Maskottchen wurde erweitert um dynamische
+Nachrichten basierend auf der aktuellen Route.
 
 2.3 Ressourcenplanung
 
@@ -238,7 +238,7 @@ Personelle Ressourcen:
 
 2.4 Entwicklungsprozess
 
-Für die Realisierung des Projekts wurde ein iterativer Entwicklungsprozess verfolgt, 
+Für die Realisierung des Projekts wurde ein iterativer Entwicklungsprozess verfolgt,
 der sich an agilen Prinzipien orientiert:
 
 • Regelmäßige Sprints (wöchentlich)
@@ -246,7 +246,7 @@ der sich an agilen Prinzipien orientiert:
 • Schrittweise Implementierung von Features
 • Kontinuierliches Testing
 
-Der Versionskontroll wurde mit Git durchgeführt, die Codebase ist auf 
+Der Versionskontroll wurde mit Git durchgeführt, die Codebase ist auf
 GitHub unter dem Repository "EOL-App" verfügbar.
 
 ================================================================================
@@ -257,10 +257,10 @@ GitHub unter dem Repository "EOL-App" verfügbar.
 Die Ist-Analyse zeigte folgende Situation:
 
 Aktuelle Situation:
-• Bestehende Lernmaterialien zu Ozeanen sind hauptsächlich textbasiert oder in gedruckter 
-  Form verfügbar.
-• Es gibt keine speziell für Kinder entwickelte, deutschsprachige Anwendung zur 
-  Ozeanenkunde.
+• Bestehende Lernmaterialien zu Ozeanen sind hauptsächlich textbasiert oder in gedruckter
+Form verfügbar.
+• Es gibt keine speziell für Kinder entwickelte, deutschsprachige Anwendung zur
+Ozeanenkunde.
 • Moderne E-Learning-Tools sind oft zu komplex oder nicht altersgerecht.
 
 Probleme:
@@ -288,22 +288,25 @@ Die Anwendung soll:
 Funktionale Anforderungen (MUSS):
 • Startseite mit Weltkarte und Links zu den 5 Ozeanen
 • Detailseiten für jeden Ozean mit:
-  - Ausführliche Beschreibung
-  - Liste von Nebenmeeren
-  - Bildergalerie mit Karusell
-  - Tieren und Flora
-  - Quiz-Button
+
+- Ausführliche Beschreibung
+- Liste von Nebenmeeren
+- Bildergalerie mit Karusell
+- Tieren und Flora
+- Quiz-Button
 
 • Quiz-Funktionalität:
-  - 7 Fragen pro Ozean
-  - Multiple-Choice-Format (4 Optionen)
-  - Feedback bei richtiger/falscher Antwort
-  - Abschließende Ergebnisanzeige mit Punktzahl
+
+- 7 Fragen pro Ozean
+- Multiple-Choice-Format (4 Optionen)
+- Feedback bei richtiger/falscher Antwort
+- Abschließende Ergebnisanzeige mit Punktzahl
 
 • Maskottchen:
-  - Dynamische Nachrichten basierend auf aktiver Route
-  - Quiz-Ergebnisanzeige
-  - Responsive Positionierung
+
+- Dynamische Nachrichten basierend auf aktiver Route
+- Quiz-Ergebnisanzeige
+- Responsive Positionierung
 
 Funktionale Anforderungen (SOLL):
 • Fortschrittspeicherung zwischen Sessions
@@ -371,14 +374,14 @@ Amortisationsdauer: 1.435€ ÷ 350€ = 4,1 Jahre
 
 Nicht-monetärer Nutzen:
 
-| Kriterium | Gewichtung | Bewertung (1-5) | Nutzwert |
-|-----------|-----------|-----------------|----------|
-| Usability | 25% | 5 | 1,25 |
-| Pädagogischer Wert | 30% | 4 | 1,20 |
-| Skalierbarkeit | 20% | 4 | 0,80 |
-| Wartbarkeit | 15% | 4 | 0,60 |
-| Erweiterbarkeit | 10% | 4 | 0,40 |
-| **GESAMT** | **100%** | - | **4,25** |
+| Kriterium          | Gewichtung | Bewertung (1-5) | Nutzwert |
+| ------------------ | ---------- | --------------- | -------- |
+| Usability          | 25%        | 5               | 1,25     |
+| Pädagogischer Wert | 30%        | 4               | 1,20     |
+| Skalierbarkeit     | 20%        | 4               | 0,80     |
+| Wartbarkeit        | 15%        | 4               | 0,60     |
+| Erweiterbarkeit    | 10%        | 4               | 0,40     |
+| **GESAMT**         | **100%**   | -               | **4,25** |
 
 Der Nutzwertkoeffizient von 4,25 (auf Skala 1-5) zeigt einen hohen Nutzen der Anwendung.
 
@@ -389,12 +392,14 @@ Der Nutzwertkoeffizient von 4,25 (auf Skala 1-5) zeigt einen hohen Nutzen der An
 Hauptanwendungsfälle:
 
 1. **Ozean-Erkundung**: Benutzer navigiert zu einen Ozean und liest Informationen
+
    - Akteur: Schüler
    - Vorbedingung: App ist geladen
    - Nachbedingung: Informationen werden angezeigt
    - Schritte: Klick auf Ozean → Detailseite wird geladen
 
 2. **Quiz-Beantwortung**: Benutzer antwortet auf Quiz-Fragen
+
    - Akteur: Schüler
    - Vorbedingung: Detailseite eines Ozeans
    - Nachbedingung: Ergebnis wird angezeigt
@@ -410,18 +415,18 @@ Hauptanwendungsfälle:
 
 Nach ISO/IEC 9126 werden folgende Qualitätsanforderungen definiert:
 
-| Qualitätsmerkmal | Anforderung | Metriken |
-|------------------|-------------|----------|
-| **Funktionalität** | Alle Features funktionieren wie spezifiziert | 100% der Anforderungen umgesetzt |
-| **Zuverlässigkeit** | App zeigt keine Fehler | 0 kritische Bugs, max. 3 Minor-Bugs |
-| **Benutzbarkeit** | Intuitiv bedienbar für 6-12 Jahre alte Kinder | SUS-Score > 80, Usability-Tests |
-| **Effizienz** | Schnelle Reaktionszeit | Page Load < 2s, Quiz-Start < 500ms |
-| **Wartbarkeit** | Code ist wartbar und dokumentiert | Code-Coverage > 70% |
-| **Portabilität** | Funktioniert auf verschiedenen Browsern | Chrome, Firefox, Safari |
+| Qualitätsmerkmal    | Anforderung                                   | Metriken                            |
+| ------------------- | --------------------------------------------- | ----------------------------------- |
+| **Funktionalität**  | Alle Features funktionieren wie spezifiziert  | 100% der Anforderungen umgesetzt    |
+| **Zuverlässigkeit** | App zeigt keine Fehler                        | 0 kritische Bugs, max. 3 Minor-Bugs |
+| **Benutzbarkeit**   | Intuitiv bedienbar für 6-12 Jahre alte Kinder | SUS-Score > 80, Usability-Tests     |
+| **Effizienz**       | Schnelle Reaktionszeit                        | Page Load < 2s, Quiz-Start < 500ms  |
+| **Wartbarkeit**     | Code ist wartbar und dokumentiert             | Code-Coverage > 70%                 |
+| **Portabilität**    | Funktioniert auf verschiedenen Browsern       | Chrome, Firefox, Safari             |
 
 3.7 Lastenheft
 
-Das Lastenheft wurde in Abstimmung mit dem Auftraggeber erstellt und folgende 
+Das Lastenheft wurde in Abstimmung mit dem Auftraggeber erstellt und folgende
 Anforderungen definiert:
 
 [XXXXX AUSZUG AUS LASTENHEFT EINFÜGEN XXXXX]
@@ -445,14 +450,16 @@ Auswahl der Programmiersprache:
 
 Auswahl des Frameworks:
 • Angular 20 wurde gewählt wegen:
-  - Vollständiges Framework mit allen Funktionen
-  - Standalone Components ermöglichen modularen Code
-  - Ausgezeichnete Routing-Funktionalität
-  - Große Community und Dokumentation
-  
+
+- Vollständiges Framework mit allen Funktionen
+- Standalone Components ermöglichen modularen Code
+- Ausgezeichnete Routing-Funktionalität
+- Große Community und Dokumentation
+
 • Alternativen betrachtet:
-  - React: Zu minimalistisch, hätte mehr zusätzliche Libraries erfordert
-  - Vue: Weniger etabliert, geringere Community
+
+- React: Zu minimalistisch, hätte mehr zusätzliche Libraries erfordert
+- Vue: Weniger etabliert, geringere Community
 
 Auswahl der Datenbank/Persistierung:
 • JSON-Dateien für Quiz-Fragen (statische Daten)
@@ -510,13 +517,15 @@ Design Patterns:
 
 Visuelle Gestaltung:
 
-1. **Startseite**: 
+1. **Startseite**:
+
    - Header mit Logo (Link zur Startseite)
    - Willkommensnachricht vom Maskottchen
    - Weltkarte mit Links zu 5 Ozeanen
    - Responsive Grid-Layout
 
 2. **Ozeaninfo-Seite**:
+
    - Ozean-Name und Beschreibung
    - Bildergalerie (Bootstrap Carousel)
    - Liste von Nebenmeeren
@@ -554,6 +563,7 @@ interface Ozean {
 ```
 
 Beispiel (Pazifik):
+
 ```json
 {
   "id": "pazifik",
@@ -679,7 +689,7 @@ User-Acceptance-Testing:
 
 4.7 Pflichtenheft
 
-Das Pflichtenheft wurde basierend auf dem Lastenheft erstellt und konkretisiert 
+Das Pflichtenheft wurde basierend auf dem Lastenheft erstellt und konkretisiert
 die technische Umsetzung:
 
 [XXXXX AUSZUG AUS PFLICHTENHEFT EINFÜGEN XXXXX]
@@ -739,6 +749,7 @@ export interface QuizData {
 ```
 
 Dateistruktur:
+
 ```
 public/assets/
 ├── quiz/
@@ -755,12 +766,13 @@ public/assets/
 ```
 
 Quiz-Daten (public/assets/quiz/quizfragen.json):
+
 - 5 Ozeane
 - Je 7 Fragen pro Ozean (insgesamt 35 Fragen)
 - Multiple-Choice Format
 - Mit Erklärungen
 
-5.2 Implementierung der Oberflächen
+  5.2 Implementierung der Oberflächen
 
 Komponenten-Struktur:
 
@@ -776,11 +788,12 @@ src/app/
 ```
 
 Header (headerleiste.ts):
+
 ```typescript
 @Component({
   selector: 'app-header',
   imports: [RouterModule],
-  templateUrl: './headerleiste.html'
+  templateUrl: './headerleiste.html',
 })
 export class HeaderLeiste {
   // Simple navigation component
@@ -788,11 +801,12 @@ export class HeaderLeiste {
 ```
 
 Startseite (startseite.ts):
+
 ```typescript
 @Component({
   selector: 'app-startseite',
   imports: [CommonModule, RouterModule],
-  templateUrl: './startseite.html'
+  templateUrl: './startseite.html',
 })
 export class Startseite {
   ozeane = OCEANS_DATA;
@@ -800,22 +814,21 @@ export class Startseite {
 ```
 
 Styling (Bootstrap 5):
+
 ```html
 <div class="container-fluid">
   <div class="row">
     @for (ozean of ozeane; track ozean.id) {
-      <div class="col-lg-6 col-xl-4">
-        <a [routerLink]="'/ozeane/' + ozean.id" 
-           class="ocean-card">
-          {{ ozean.name }}
-        </a>
-      </div>
+    <div class="col-lg-6 col-xl-4">
+      <a [routerLink]="'/ozeane/' + ozean.id" class="ocean-card"> {{ ozean.name }} </a>
+    </div>
     }
   </div>
 </div>
 ```
 
 Responsive CSS (Bootstrap Breakpoints):
+
 ```css
 /* Mobile First */
 @media (max-width: 768px) {
@@ -852,14 +865,12 @@ export class Quizservice {
     }
 
     // Sonst laden und cachen
-    return this.http
-      .get<QuizDataMap>('assets/quiz/quizfragen.json')
-      .pipe(
-        map(data => data[oceanId] || null),
-        tap(data => {
-          if (data) this.cache.set(oceanId, data);
-        })
-      );
+    return this.http.get<QuizDataMap>('assets/quiz/quizfragen.json').pipe(
+      map((data) => data[oceanId] || null),
+      tap((data) => {
+        if (data) this.cache.set(oceanId, data);
+      })
+    );
   }
 }
 ```
@@ -894,7 +905,7 @@ Komplette Quiz-Logik mit State Management:
 @Component({
   selector: 'app-quiz',
   imports: [CommonModule, RouterModule],
-  templateUrl: './quiz.html'
+  templateUrl: './quiz.html',
 })
 export class Quiz implements OnInit {
   quizData: QuizData | null = null;
@@ -911,11 +922,11 @@ export class Quiz implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(params => {
+    this.route.paramMap.subscribe((params) => {
       const oceanId = params.get('oceanId');
       if (oceanId) {
         this.quizService.getQuizData(oceanId).subscribe({
-          next: data => this.quizData = data
+          next: (data) => (this.quizData = data),
         });
       }
     });
@@ -927,9 +938,8 @@ export class Quiz implements OnInit {
 
   submitAnswer(): void {
     if (this.selectedAnswer !== null) {
-      const isCorrect = 
-        this.selectedAnswer === 
-        this.quizData?.questions[this.currentQuestion].correct;
+      const isCorrect =
+        this.selectedAnswer === this.quizData?.questions[this.currentQuestion].correct;
       if (isCorrect) this.score++;
       this.showResult = true;
     }
@@ -957,7 +967,7 @@ Dynamische Nachrichten basierend auf Route und Quiz-Ergebnis:
 @Component({
   selector: 'app-sprechblase',
   imports: [CommonModule],
-  templateUrl: './sprechblase.html'
+  templateUrl: './sprechblase.html',
 })
 export class Sprechblase implements AfterViewInit, OnDestroy {
   sprechblasenText: string = '';
@@ -978,18 +988,16 @@ export class Sprechblase implements AfterViewInit, OnDestroy {
     // Höre auf Route-Änderungen
     this.router.events
       .pipe(
-        filter(event => event instanceof NavigationEnd),
+        filter((event) => event instanceof NavigationEnd),
         takeUntil(this.destroy$)
       )
       .subscribe(() => this.updateTextByRoute());
 
     // Höre auf Quiz-Ergebnisse
-    this.quizResultService.quizResult$
-      .pipe(takeUntil(this.destroy$))
-      .subscribe(() => {
-        this.updateTextByRoute();
-        this.ngZone.run(() => this.cdr.detectChanges());
-      });
+    this.quizResultService.quizResult$.pipe(takeUntil(this.destroy$)).subscribe(() => {
+      this.updateTextByRoute();
+      this.ngZone.run(() => this.cdr.detectChanges());
+    });
   }
 
   private updateTextByRoute(): void {
@@ -1001,14 +1009,12 @@ export class Sprechblase implements AfterViewInit, OnDestroy {
     } else if (url.includes('/quiz')) {
       if (quizScore) {
         const [score, total] = quizScore.split('|');
-        this.sprechblasenText = 
-          `Wow, du hast ${score} von ${total} Punkten erreicht!`;
+        this.sprechblasenText = `Wow, du hast ${score} von ${total} Punkten erreicht!`;
       }
     } else if (url.includes('/ozeane/')) {
       const oceanId = url.match(/\/ozeane\/([^/]+)/)?.[1];
       this.oceanName = this.getOceanName(oceanId);
-      this.sprechblasenText = 
-        `Wow! ${this.oceanName} ist faszinierend...`;
+      this.sprechblasenText = `Wow! ${this.oceanName} ist faszinierend...`;
     }
   }
 
@@ -1018,7 +1024,7 @@ export class Sprechblase implements AfterViewInit, OnDestroy {
       atlantik: 'Der Atlantik',
       indischer: 'Der Indische Ozean',
       arktis: 'Der Arktische Ozean',
-      antarktis: 'Die Antarktis'
+      antarktis: 'Die Antarktis',
     };
     return names[id!] || id || '';
   }
@@ -1047,8 +1053,8 @@ Styling (CSS):
 }
 
 .sprechblase-text {
-  background: #FFF;
-  border: 2px solid #FF6B9D;
+  background: #fff;
+  border: 2px solid #ff6b9d;
   border-radius: 10px;
   padding: 15px;
   font-size: 0.9rem;
@@ -1071,10 +1077,11 @@ Styling (CSS):
 6.1 Unit-Tests
 
 QuizService-Tests:
+
 ```typescript
 describe('QuizService', () => {
   it('should load quiz data from JSON', (done) => {
-    service.getQuizData('pazifik').subscribe(data => {
+    service.getQuizData('pazifik').subscribe((data) => {
       expect(data?.title).toBe('Pazifik Quiz');
       expect(data?.questions.length).toBe(7);
       done();
@@ -1090,6 +1097,7 @@ describe('QuizService', () => {
 ```
 
 QuizResultService-Tests:
+
 ```typescript
 describe('QuizResultService', () => {
   it('should store quiz result', () => {
@@ -1098,7 +1106,7 @@ describe('QuizResultService', () => {
   });
 
   it('should emit result changes', (done) => {
-    service.quizResult$.subscribe(result => {
+    service.quizResult$.subscribe((result) => {
       expect(result).toBe('5|7');
       done();
     });
@@ -1110,20 +1118,21 @@ describe('QuizResultService', () => {
 6.2 Integrationstests
 
 Quiz-Workflow-Test:
+
 ```typescript
 describe('Quiz Workflow', () => {
   it('should complete quiz and show results', (done) => {
     // 1. Navigate to quiz
     router.navigate(['/ozeane/pazifik/quiz']);
-    
+
     // 2. Answer questions
     component.selectAnswer(1);
     component.submitAnswer();
     // ...
-    
+
     // 3. Finish quiz
     component.finishQuiz();
-    
+
     // 4. Check result
     expect(component.showResults).toBe(true);
     done();
@@ -1135,15 +1144,15 @@ describe('Quiz Workflow', () => {
 
 Testfälle:
 
-| Test-Case | Vorbedingung | Schritte | Erwartetes Ergebnis |
-|-----------|-------------|---------|-------------------|
-| TC-01 | App geladen | Klick auf Ozean | Ozeaninfo-Seite wird angezeigt |
-| TC-02 | Ozeaninfo-Seite | Klick auf "Quiz" | Quiz-Seite wird geladen |
-| TC-03 | Quiz-Seite | Beantworte alle Fragen | Ergebnis wird angezeigt |
-| TC-04 | Quiz beendet | Klick auf "Startseite" | Startet neu mit Quiz-Score angezeigt |
-| TC-05 | Quiz aktiv | Klick auf Logo | Navigiert zur Startseite |
-| TC-06 | Mobile (320px) | Öffne App | Layout ist responsive |
-| TC-07 | Safari Browser | Öffne App | Funktioniert ohne Fehler |
+| Test-Case | Vorbedingung    | Schritte               | Erwartetes Ergebnis                  |
+| --------- | --------------- | ---------------------- | ------------------------------------ |
+| TC-01     | App geladen     | Klick auf Ozean        | Ozeaninfo-Seite wird angezeigt       |
+| TC-02     | Ozeaninfo-Seite | Klick auf "Quiz"       | Quiz-Seite wird geladen              |
+| TC-03     | Quiz-Seite      | Beantworte alle Fragen | Ergebnis wird angezeigt              |
+| TC-04     | Quiz beendet    | Klick auf "Startseite" | Startet neu mit Quiz-Score angezeigt |
+| TC-05     | Quiz aktiv      | Klick auf Logo         | Navigiert zur Startseite             |
+| TC-06     | Mobile (320px)  | Öffne App              | Layout ist responsive                |
+| TC-07     | Safari Browser  | Öffne App              | Funktioniert ohne Fehler             |
 
 6.4 User-Acceptance-Testing
 
@@ -1212,28 +1221,28 @@ Dokumentations-Format: Markdown + PDF
 
 Gegenüberstellung der geplanten und tatsächlich umgesetzten Ziele:
 
-| Anforderung | Geplant | Umgesetzt | Status |
-|-------------|--------|----------|--------|
-| 5 Ozeane | Ja | Ja | ✓ |
-| Ozean-Details | Ja | Ja | ✓ |
-| Bildergalerien | Ja | Ja | ✓ |
-| 4 Quiz-Fragen/Ozean | Ja | 7 | ✓ |
-| Maskottchen | Ja | Ja | ✓ |
-| Responsive Design | Ja | Ja | ✓ |
-| Quiz-Punktzahl | Ja | Ja | ✓ |
+| Anforderung         | Geplant | Umgesetzt | Status |
+| ------------------- | ------- | --------- | ------ |
+| 5 Ozeane            | Ja      | Ja        | ✓      |
+| Ozean-Details       | Ja      | Ja        | ✓      |
+| Bildergalerien      | Ja      | Ja        | ✓      |
+| 4 Quiz-Fragen/Ozean | Ja      | 7         | ✓      |
+| Maskottchen         | Ja      | Ja        | ✓      |
+| Responsive Design   | Ja      | Ja        | ✓      |
+| Quiz-Punktzahl      | Ja      | Ja        | ✓      |
 
 **Zeitplan-Vergleich:**
 
 [XXXXX ZEITPLAN SOLL-IST TABELLE EINFÜGEN XXXXX]
 
-| Phase | Geplant (h) | Tatsächlich (h) | Differenz (h) |
-|-------|-----------|-----------------|--------------|
-| Analyse | 8 | 8 | 0 |
-| Entwurf | 12 | 14 | +2 |
-| Implementierung | 50 | 52 | +2 |
-| Tests | 8 | 4 | -4 |
-| Dokumentation | 2 | 4 | +2 |
-| **TOTAL** | **80** | **82** | **+2** |
+| Phase           | Geplant (h) | Tatsächlich (h) | Differenz (h) |
+| --------------- | ----------- | --------------- | ------------- |
+| Analyse         | 8           | 8               | 0             |
+| Entwurf         | 12          | 14              | +2            |
+| Implementierung | 50          | 52              | +2            |
+| Tests           | 8           | 4               | -4            |
+| Dokumentation   | 2           | 4               | +2            |
+| **TOTAL**       | **80**      | **82**          | **+2**        |
 
 Das Projekt wurde insgesamt 2 Stunden über dem geplanten Umfang abgeschlossen.
 
@@ -1247,7 +1256,7 @@ Das Projekt wurde insgesamt 2 Stunden über dem geplanten Umfang abgeschlossen.
 Ersparnis:
 • Tests: -4h (Viele Fehler während Implementierung gefunden und direkt behoben)
 
-Diese Abweichungen sind gering und können durch unerwartete Anforderungsänderungen 
+Diese Abweichungen sind gering und können durch unerwartete Anforderungsänderungen
 (erweiterte Quiz-Fragen) begründet werden.
 
 **Zielerreichung:** 100% ✓
@@ -1267,6 +1276,7 @@ Die Abweichung ist minimal und liegt innerhalb des Toleranzbereichs.
 **Einnahmen-Potential:**
 
 Szenarien für Umsatzgenerierung:
+
 1. **Kostenlos-Modell**: Nutzung durch Schulen, Refinanzierung durch Werbung
 2. **Premium-Modell**: Erweiterungen (weitere Ozeane, weitere Quizze) kostenpflichtig
 3. **B2B-Modell**: Schullizenzen (z.B. 50€/Jahr pro Schule)
@@ -1334,13 +1344,13 @@ Die App hat großes Potenzial für:
 • EdTech-Plattformen
 • Museum und Aquarien
 
-Mit zusätzlichem Marketing könnte die App zu einer wertvollen Ressource in der 
+Mit zusätzlichem Marketing könnte die App zu einer wertvollen Ressource in der
 Umweltbildung werden.
 
 **Technische Perspektive:**
 
-Die Codebase ist gut strukturiert und leicht erweiterbar. Mit der gewählten 
-Architektur können neue Features schnell hinzugefügt werden. Die Kombination von 
+Die Codebase ist gut strukturiert und leicht erweiterbar. Mit der gewählten
+Architektur können neue Features schnell hinzugefügt werden. Die Kombination von
 Angular, TypeScript und Bootstrap hat sich als robust und wartbar erwiesen.
 
 ================================================================================
@@ -1396,11 +1406,12 @@ LF-04: Das System muss die Quiz-Ergebnisse anzeigen
 A.4 Mockups
 
 [XXXXX MOCKUP-SCREENSHOTS FÜR:
+
 - Startseite
 - Ozeaninfo-Seite
 - Quiz-Seite
 - Quiz-Ergebnis
-EINFÜGEN XXXXX]
+  EINFÜGEN XXXXX]
 
 Desktop-Mockup Startseite:
 [Screenshot/Mockup]
@@ -1465,12 +1476,14 @@ A.11 Entwickler-Dokumentation
 API-Dokumentation der wichtigsten Services:
 
 **QuizService**
+
 ```typescript
 // Lädt Quiz-Daten für einen Ozean
 getQuizData(oceanId: string): Observable<QuizData | null>
 ```
 
 **QuizResultService**
+
 ```typescript
 // Setzt Quiz-Ergebnis
 setQuizResult(score: number, total: number): void
@@ -1483,6 +1496,7 @@ quizResult$: Observable<string>
 ```
 
 Setup-Anleitung:
+
 ```bash
 # 1. Repository klonen
 git clone https://github.com/Jiggerbyte911/EOL-App
@@ -1498,6 +1512,7 @@ http://localhost:4200
 ```
 
 Deployment:
+
 ```bash
 # Build für Produktion
 ng build --configuration production
@@ -1543,14 +1558,14 @@ A.13 Zeitplanung mit Soll-/Ist-Vergleich
 
 [XXXXX DETAILLIERTE SOLL-IST-VERGLEICH TABELLE EINFÜGEN XXXXX]
 
-| Phase | Woche | Geplant (h) | Tatsächlich (h) | % |
-|-------|-------|-----------|-----------------|---|
-| Analyse | 1 | 8 | 8 | 100% |
-| Entwurf | 2 | 12 | 14 | 117% |
-| Implementierung | 3-5 | 50 | 52 | 104% |
-| Tests | 6 | 8 | 4 | 50% |
-| Dokumentation | 7 | 2 | 4 | 200% |
-| **GESAMT** | **1-7** | **80** | **82** | **103%** |
+| Phase           | Woche   | Geplant (h) | Tatsächlich (h) | %        |
+| --------------- | ------- | ----------- | --------------- | -------- |
+| Analyse         | 1       | 8           | 8               | 100%     |
+| Entwurf         | 2       | 12          | 14              | 117%     |
+| Implementierung | 3-5     | 50          | 52              | 104%     |
+| Tests           | 6       | 8           | 4               | 50%      |
+| Dokumentation   | 7       | 2           | 4               | 200%     |
+| **GESAMT**      | **1-7** | **80**      | **82**          | **103%** |
 
 ================================================================================
 
