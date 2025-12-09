@@ -35,13 +35,13 @@ export class Sprechblase implements AfterViewInit, OnDestroy {
     // Aktualisiere Text basierend auf URL
     this.updateTextByRoute();
 
-    // initial set
+    // initialwert setzen
     this.updateCssVars();
 
-    // update on window resize
+    // update wenn Fenstergröße sich ändert
     window.addEventListener('resize', this.resizeHandler);
 
-    // observe text changes inside the sprechblase container
+    // beobachte Textänderungen im Container der Sprechblase
     const el = document.querySelector('.container-sprechblase');
     if (el) {
       this.observer = new MutationObserver(() => this.updateCssVars());

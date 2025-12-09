@@ -18,17 +18,13 @@ export class Quizservice {
    * @returns Observable mit den Quiz-Daten
    */
   getQuizData(oceanId: string): Observable<QuizData | null> {
-    console.log('Service: getQuizData called with oceanId:', oceanId);
-
-    // Prüfe ob Daten bereits im Cache sind
+    // Aus Cache laden wenn vorhanden
     if (this.quizDataCache.has(oceanId)) {
       console.log('Service: Data found in cache for:', oceanId);
       return of(this.quizDataCache.get(oceanId) || null);
     }
 
-    console.log('Service: Loading data from:', this.quizDataUrl);
-
-    // Lade alle Quiz-Daten aus der JSON
+    // Sonst laden und cachen
     return this.http.get<{ [key: string]: QuizData }>(this.quizDataUrl).pipe(
       map((allData) => {
         console.log('Service: Data loaded from JSON:', Object.keys(allData));
