@@ -1,3 +1,4 @@
+// Struktur einer einzelnen Quizfrage
 export interface QuizQuestion {
   question: string;
   options: string[];
@@ -5,6 +6,7 @@ export interface QuizQuestion {
   explanation: string;
 }
 
+// Struktur der Quiz-Daten für einen Ozean
 export interface QuizData {
   title: string;
   questions: QuizQuestion[];
